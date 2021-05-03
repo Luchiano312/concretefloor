@@ -7,6 +7,9 @@
   <title>Araujo Concrete Floor</title>
   <link rel="stylesheet" href="./css/bootstrap.css">
   <link rel="stylesheet" href="./css/app.css">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- header -->
@@ -47,16 +50,31 @@
     </div>
   </header>
   <!--main-menu end-->
-<!-- banner -->
-<section id="banner">
-   <div class="container">
+<!-- banner desktop -->
+<section id="banner" class="desktopbanner">
+   <div class="container pt-5">
      <div class="row">
-      <div class="col">1</div>
-      <div class="col">2</div>
+      <div class="col">
+        <div class="frasebanner">
+          <p>Demolition, Floor levelling,<br>Sloped shower & Tile installation</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="fones">
+          <ul>
+            <li>Tile Installation</li>
+            <li>(657) 668.5712</li>
+          </ul>
+          <ul>
+            <li>Floor levelling</li>
+            <li>(416) 846.1763</li>
+          </ul>
+        </div>
+      </div>
      </div>
-     <div class="row">
-      <div class="col d-flex justify-content-center pb-5">
-        <div class="frase">
+     <div class="row fease" >
+      <div class="col d-flex justify-content-center pb-5 ">
+        <div class="frase align-self-end">
           <h1>Our Reputation in set in concrete!</h1>
         <a class="btn butun" href="#" role="button">REQUEST A QUOTE</a>
         </div>
@@ -64,6 +82,39 @@
      </div>
    </div>
  </section>
+
+<!-- banner mobile -->
+<section id="banner-mobile " class="mobilebanner">
+  <div class="container pt-5">
+    <div class="row">
+     <div class="col-md-6">
+       <div class="frasebanner">
+         <p>Demolition, Floor levelling,Sloped shower <br>& Tile installation</p>
+       </div>
+     </div>
+     <div class="col-md-6">
+       <div class="fones">
+         <ul>
+           <li>Tile Installation</li>
+           <li>(657) 668.5712</li>
+         </ul>
+         <ul>
+           <li>Floor levelling</li>
+           <li>(416) 846.1763</li>
+         </ul>
+       </div>
+     </div>
+    </div>
+    <div class="row fease" >
+     <div class="col d-flex justify-content-center pb-5 ">
+       <div class="frase align-self-end">
+         <h1>Our Reputation in set in concrete!</h1>
+       <a class="btn butun" href="#" role="button">REQUEST A QUOTE</a>
+       </div>
+     </div>
+    </div>
+  </div>
+</section>
 <!-- services -->
  <section id="service">
   <div class="container">
@@ -72,20 +123,28 @@
     </div>
     <div class="row pb-5">
       <div class="col-md-6 services">
-        <img class="img-fluid" src="./img/Demolition.png" alt="">
-        <h6>Demolition</h6>
+        <div class="b-shadow">
+          <img class="img-fluid" src="./img/Demolition.png" alt="">
+          <h6>Demolition</h6>
+        </div>
       </div>
       <div class="col-md-6 services">
-        <img class="img-fluid" src="./img/floor-levelling.png" alt="">
-        <h6>Floor levelling</h6>
+        <div class="b-shadow">
+          <img class="img-fluid" src="./img/floor-levelling.png" alt="">
+          <h6>Floor levelling</h6>
+        </div>
       </div>
       <div class="col-md-6 services">
-        <img class="img-fluid" src="./img/sloped-shower.png" alt="">
-        <h6>Sloped Shower</h6>
+        <div class="b-shadow">
+          <img class="img-fluid" src="./img/sloped-shower.png" alt="">
+          <h6>Sloped Shower</h6>
+        </div>
       </div>
       <div class="col-md-6 services">
-        <img class="img-fluid" src="./img/tile-installation.png" alt="">
-        <h6>Tile Installation</h6>
+        <div class="b-shadow">
+          <img class="img-fluid" src="./img/tile-installation.png" alt="">
+          <h6>Tile Installation</h6>
+        </div>
       </div>
     </div>
   </div>
@@ -277,13 +336,76 @@
   </div>
   <div class="container">
     <div class="row">
-      
+      <div class="col-md-3">
+        <ul>
+          <li><img src="img/logo1"></li>
+          <li><img src="img/logo2"></li>
+          <li><img src="img/logo3"></li>
+          <li><img src="img/logo4"></li>
+          <li><img src="img/logo5"></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li><img src="img/logo6"></li>
+          <li><img src="img/logo7"></li>
+          <li><img src="img/logo8"></li>
+          <li><img src="img/logo9"></li>
+          <li><img src="img/logo10"></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li><img src="img/logo12"></li>
+          <li><img src="img/logo13"></li>
+          <li><img src="img/logo14"></li>
+          <li><img src="img/logo15"></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li><img src="img/logo16"></li>
+          <li><img src="img/logo17"></li>
+          <li><img src="img/logo18"></li>
+        </ul>
+      </div>
     </div>
   </div> 
 </section>  
 
 <footer>
-
+<div class="container py-5">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="img/logo-footer.png">
+    </div>
+    <div class="col-md-4">
+      <div>
+        <h5>CONTACT</h5>
+        <ul>
+          <li>Carla Marçal</li>
+          <li>(657) 668.5712</li>
+          <li>Helivelton Araujo</li>
+          <li>(416) 846.1763</li>
+          <li>araujoconcretefloor@hotmail.com</li>
+          <li>@araujoconcretefloor</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h5>PAGES</h5>
+      <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Services</li>
+        <li>Completed works</li>
+        <li>Others projects</li>
+        <li>Reviews</li>
+        <li>Our Partnerships</li>
+      </ul>
+    </div>
+  </div>
+</div>
 </footer>
 
 <script src="./js/jquery.min.js"></script>
