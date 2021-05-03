@@ -193,6 +193,50 @@ li {
 .desktopbanner {
   display: block;
 }
+.proplace h5 {
+  color: #161d6f;
+  padding-bottom: 10px;
+}
+.proplace ul li {
+  color: #484848;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+.partner1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.partner2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partner4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partnerships ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+}
 /*mobile*/
 @media only screen and (max-width: 600px) {
   .mobilebanner {
