@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const autoprefixer = require("gulp-autoprefixer");
+const build = require("gulp-build");
 const browserSync = require("browser-sync").create();
 
 function compiladorCss() {
@@ -30,4 +31,19 @@ gulp.task("default", function () {
     },
   });
   gulp.watch("*.html").on("change", browserSync.reload);
+});
+
+/* Build*/
+gulp.task("build", function () {
+  gulp
+    .src("js/*.js")
+    .pipe(build({ GA_ID: "123456" }))
+    .pipe(gulp.dest("dist"));
+});
+
+gulp.task("build", function () {
+  gulp
+    .src("css/*.css")
+    .pipe(build({ GA_ID: "123456" }))
+    .pipe(gulp.dest("dist"));
 });
