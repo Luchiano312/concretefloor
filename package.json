@@ -1,0 +1,20 @@
+{
+  "name": "araujo-concrete-floor",
+  "version": "1.0.0",
+  "description": "Site Araujo Concrete Floor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luciano Pessoa",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "jquery": "^3.6.0",
+    "owl-carousel-2-beta": "^2.1.2"
+  }
+}
